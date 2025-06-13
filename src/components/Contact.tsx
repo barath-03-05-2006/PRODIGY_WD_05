@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { User, Star, FileText } from 'lucide-react';
 
 const Contact = () => {
