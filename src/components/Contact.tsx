@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     // Handle form submission logic here
-    alert('Thank you for your message! I\'ll get back to you soon.');
+    alert("Thank you for your message! I'll get back to you soon.");
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
