@@ -8,25 +8,25 @@ const Skills = () => {
       icon: Layout,
       color: "purple",
       skills: [
-        { name: "React", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "JavaScript", level: 95 },
-        { name: "HTML/CSS", level: 95 },
-        { name: "Tailwind CSS", level: 90 },
-        { name: "Next.js", level: 85 }
+        { name: "HTML/CSS", level: 90 },
+        { name: "JavaScript", level: 85 },
+        { name: "React", level: 80 },
+        { name: "Tailwind CSS", level: 85 },
+        { name: "Bootstrap", level: 75 },
+        { name: "TypeScript", level: 70 }
       ]
     },
     {
-      title: "Backend Development",
+      title: "Backend & Database",
       icon: Code,
       color: "blue",
       skills: [
-        { name: "Node.js", level: 85 },
+        { name: "Node.js", level: 75 },
         { name: "Python", level: 80 },
-        { name: "Express.js", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "MongoDB", level: 75 },
-        { name: "GraphQL", level: 70 }
+        { name: "Express.js", level: 70 },
+        { name: "MySQL", level: 75 },
+        { name: "MongoDB", level: 65 },
+        { name: "RESTful APIs", level: 70 }
       ]
     },
     {
@@ -34,12 +34,12 @@ const Skills = () => {
       icon: Star,
       color: "indigo",
       skills: [
-        { name: "Git", level: 90 },
-        { name: "Docker", level: 75 },
-        { name: "AWS", level: 80 },
-        { name: "Webpack", level: 80 },
-        { name: "Jest", level: 85 },
-        { name: "Figma", level: 85 }
+        { name: "Git", level: 80 },
+        { name: "VS Code", level: 90 },
+        { name: "Figma", level: 70 },
+        { name: "Linux", level: 65 },
+        { name: "Postman", level: 75 },
+        { name: "Firebase", level: 60 }
       ]
     }
   ];
@@ -74,11 +74,11 @@ const Skills = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Skills & Expertise
+              Skills & Technologies
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Technologies and tools I use to bring ideas to life
+            Technologies I've learned and tools I use to build projects
           </p>
         </div>
 
@@ -124,11 +124,11 @@ const Skills = () => {
 
         {/* Additional Skills */}
         <div className="mt-16 text-center">
-          <h3 className="text-2xl font-semibold text-gray-800 mb-8">Other Technologies</h3>
+          <h3 className="text-2xl font-semibold text-gray-800 mb-8">Currently Learning</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              'Redux', 'Sass', 'Vue.js', 'Firebase', 'Kubernetes', 'Jenkins',
-              'Prisma', 'Supabase', 'Vercel', 'Netlify', 'Stripe', 'Socket.io'
+              'Redux', 'Next.js', 'GraphQL', 'Docker', 'AWS', 'Jest',
+              'Vue.js', 'Django', 'PostgreSQL', 'Flutter', 'Machine Learning', 'Data Structures'
             ].map((tech, index) => (
               <span
                 key={index}

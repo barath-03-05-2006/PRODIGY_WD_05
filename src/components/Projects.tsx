@@ -1,63 +1,64 @@
+
 import { Star, Code, Link } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product catalog, shopping cart, and payment processing.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Stripe"],
+      title: "College Management System",
+      description: "A comprehensive web application for managing student records, course enrollment, and academic progress. Built with React frontend and Node.js backend with database integration.",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["React", "Node.js", "Express", "MySQL", "Bootstrap"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["React", "TypeScript", "Firebase", "Tailwind"],
+      title: "Personal Finance Tracker",
+      description: "A responsive web app to track personal expenses, income, and savings goals. Features interactive charts and budget planning with local storage for data persistence.",
+      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["JavaScript", "Chart.js", "CSS3", "Local Storage"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
       id: 3,
-      title: "Weather Dashboard",
-      description: "A responsive weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      image: "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["Vue.js", "Chart.js", "OpenWeather API"],
+      title: "Study Planner App",
+      description: "A productivity app designed for students to plan study schedules, track progress, and manage assignments with deadline reminders.",
+      image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["React", "Firebase", "Tailwind CSS"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 4,
-      title: "Portfolio Website",
-      description: "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and optimized performance.",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+      title: "Recipe Finder Website",
+      description: "A recipe discovery platform where users can search for recipes by ingredients, save favorites, and explore different cuisines using external API integration.",
+      image: "https://images.unsplash.com/photo-1466637574441-749b8f19452f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["HTML", "CSS", "JavaScript", "Recipe API"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 5,
-      title: "Blog Platform",
-      description: "A full-featured blog platform with content management, user authentication, comments system, and SEO optimization.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "NextAuth"],
+      title: "Campus Event Portal",
+      description: "A platform for college students to discover, register for, and manage campus events. Features event calendar, registration system, and notification alerts.",
+      image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["React", "Node.js", "MongoDB", "Express"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
       id: 6,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard with real-time data visualization, custom reports, and interactive charts.",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
-      technologies: ["React", "D3.js", "Python", "FastAPI"],
+      title: "Online Quiz Platform",
+      description: "An interactive quiz application with timer functionality, score tracking, and multiple question types. Built as a learning project for JavaScript fundamentals.",
+      image: "https://images.unsplash.com/photo-1606106237225-7fbe8ba8f14a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80",
+      technologies: ["JavaScript", "HTML5", "CSS3", "JSON"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
@@ -73,11 +74,11 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Featured Projects
+              My Projects
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            A showcase of my recent work and personal projects
+            A collection of projects I've built during my learning journey
           </p>
         </div>
 
@@ -200,10 +201,10 @@ const Projects = () => {
         {/* View More Projects */}
         <div className="text-center">
           <a
-            href="#"
+            href="https://github.com/baraths"
             className="inline-flex items-center px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-semibold hover:shadow-lg transition-all duration-200"
           >
-            View All Projects
+            View All Projects on GitHub
           </a>
         </div>
       </div>

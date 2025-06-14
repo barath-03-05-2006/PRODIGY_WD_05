@@ -35,18 +35,18 @@ const Hero = () => {
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Web Developer
+              Barath S
             </span>
           </h1>
 
           <h2 className="text-2xl md:text-3xl text-gray-700 mb-8 animate-fade-in animation-delay-200">
-            Creating Amazing Digital Experiences
+            Aspiring Full-Stack Developer & Computer Science Student
           </h2>
 
           {/* Skills Summary */}
           <p className="text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed animate-fade-in animation-delay-400">
-            Passionate full-stack developer with expertise in React, TypeScript, and modern web technologies. 
-            I love turning ideas into beautiful, functional applications that make a difference.
+            Pre-final year Computer Science student passionate about web development and modern technologies. 
+            Eager to learn, create innovative solutions, and contribute to meaningful projects.
           </p>
 
           {/* CTA Buttons */}
@@ -55,7 +55,7 @@ const Hero = () => {
               onClick={() => scrollToSection('projects')}
               className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-purple-500/25 transform hover:scale-105 transition-all duration-300"
             >
-              View My Work
+              View My Projects
             </button>
             <button
               onClick={() => scrollToSection('contact')}
@@ -68,16 +68,16 @@ const Hero = () => {
           {/* Quick Stats */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 animate-fade-in animation-delay-800">
             <div className="text-center">
-              <div className="text-3xl font-bold text-purple-600 mb-2">5+</div>
-              <div className="text-gray-600">Years Experience</div>
+              <div className="text-3xl font-bold text-purple-600 mb-2">2+</div>
+              <div className="text-gray-600">Years Learning</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">50+</div>
-              <div className="text-gray-600">Projects Completed</div>
+              <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
+              <div className="text-gray-600">Projects Built</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-indigo-600 mb-2">100+</div>
-              <div className="text-gray-600">Happy Clients</div>
+              <div className="text-3xl font-bold text-indigo-600 mb-2">8.5</div>
+              <div className="text-gray-600">CGPA</div>
             </div>
           </div>
         </div>

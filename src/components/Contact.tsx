@@ -35,7 +35,7 @@ const Contact = () => {
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Have a project in mind? Let's work together to bring your ideas to life!
+            Let's connect! I'm always open to learning opportunities and interesting projects.
           </p>
         </div>
 
@@ -45,9 +45,9 @@ const Contact = () => {
             <div className="bg-white rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-semibold text-gray-800 mb-6">Let's Connect</h3>
               <p className="text-gray-600 mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you have a specific project in mind or just want to chat about 
-                web development, feel free to reach out!
+                I'm always excited to learn from experienced developers, discuss new technologies, 
+                collaborate on interesting projects, or explore internship opportunities. 
+                Feel free to reach out!
               </p>
               
               <div className="space-y-6">
@@ -57,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Email</h4>
-                    <p className="text-gray-600">hello@yourname.com</p>
+                    <p className="text-gray-600">barath.s@student.university.edu</p>
                   </div>
                 </div>
                 
@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">LinkedIn</h4>
-                    <p className="text-gray-600">linkedin.com/in/yourname</p>
+                    <p className="text-gray-600">linkedin.com/in/barath-s</p>
                   </div>
                 </div>
                 
@@ -77,7 +77,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Resume</h4>
-                    <p className="text-gray-600">Download my CV</p>
+                    <p className="text-gray-600">Download my Resume</p>
                   </div>
                 </div>
               </div>
@@ -85,22 +85,22 @@ const Contact = () => {
 
             {/* Quick Stats */}
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Why Work With Me?</h3>
+              <h3 className="text-2xl font-semibold text-gray-800 mb-6">Academic Highlights</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <span className="text-gray-600">Response Time</span>
                   <span className="font-semibold text-purple-600">&lt; 24 hours</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Project Success Rate</span>
-                  <span className="font-semibold text-blue-600">98%</span>
+                  <span className="text-gray-600">Current CGPA</span>
+                  <span className="font-semibold text-blue-600">8.5/10</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">Client Satisfaction</span>
-                  <span className="font-semibold text-indigo-600">5.0/5.0</span>
+                  <span className="text-gray-600">Projects Completed</span>
+                  <span className="font-semibold text-indigo-600">15+</span>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-gray-600">On-Time Delivery</span>
+                  <span className="text-gray-600">Learning Enthusiasm</span>
                   <span className="font-semibold text-green-600">100%</span>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Contact = () => {
                   required
                   rows={6}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 resize-none"
-                  placeholder="Tell me about your project or just say hello!"
+                  placeholder="Tell me about opportunities, collaborations, or just say hello!"
                 />
               </div>
 
