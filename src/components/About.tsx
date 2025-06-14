@@ -1,5 +1,5 @@
 
-import { Award, Briefcase, User, Code } from 'lucide-react';
+import { User, Code } from 'lucide-react';
 
 const About = () => {
   return (
@@ -16,7 +16,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-4xl mx-auto">
           {/* Personal Story */}
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-purple-50 to-blue-50 p-8 rounded-2xl">
@@ -48,68 +48,6 @@ const About = () => {
                 the latest technologies and best practices through online courses, documentation, 
                 and building personal projects.
               </p>
-            </div>
-          </div>
-
-          {/* Experience & Education */}
-          <div className="space-y-8">
-            {/* Education */}
-            <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-6">
-                <Award className="text-blue-600 mr-3" size={24} />
-                <h3 className="text-2xl font-semibold text-gray-800">Education</h3>
-              </div>
-              <div className="space-y-6">
-                <div className="border-l-4 border-blue-600 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-800">Bachelor of Computer Science</h4>
-                  <p className="text-blue-600 font-medium">University • 2022 - 2026 (Expected)</p>
-                  <p className="text-gray-600 mt-2">
-                    Currently in pre-final year with CGPA: 8.5/10. Specializing in software 
-                    engineering, data structures, algorithms, and web technologies.
-                  </p>
-                </div>
-                <div className="border-l-4 border-green-600 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-800">Higher Secondary Education</h4>
-                  <p className="text-green-600 font-medium">ABC School • 2020 - 2022</p>
-                  <p className="text-gray-600 mt-2">
-                    Completed with 95% in Science stream, with focus on Mathematics, 
-                    Physics, and Computer Science.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Experience & Projects */}
-            <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <div className="flex items-center mb-6">
-                <Briefcase className="text-purple-600 mr-3" size={24} />
-                <h3 className="text-2xl font-semibold text-gray-800">Experience & Involvement</h3>
-              </div>
-              <div className="space-y-6">
-                <div className="border-l-4 border-purple-600 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-800">Web Development Intern</h4>
-                  <p className="text-purple-600 font-medium">TechStartup • Summer 2024</p>
-                  <p className="text-gray-600 mt-2">
-                    Worked on frontend development using React and contributed to building 
-                    responsive web applications. Gained hands-on experience with modern development workflows.
-                  </p>
-                </div>
-                <div className="border-l-4 border-indigo-600 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-800">Technical Team Member</h4>
-                  <p className="text-indigo-600 font-medium">College Tech Club • 2023 - Present</p>
-                  <p className="text-gray-600 mt-2">
-                    Active member organizing coding workshops, hackathons, and technical events. 
-                    Mentoring junior students in programming fundamentals.
-                  </p>
-                </div>
-                <div className="border-l-4 border-green-600 pl-6">
-                  <h4 className="text-lg font-semibold text-gray-800">Online Learning</h4>
-                  <p className="text-gray-600 mt-2">
-                    Completed various online courses in React, Node.js, Python, and Database Management. 
-                    Continuously learning through platforms like Coursera, Udemy, and FreeCodeCamp.
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
